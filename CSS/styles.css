@@ -1,0 +1,174 @@
+
+/* TITLE SECTION */
+/*ID SECTION*/
+#title {
+  background-color: #4C0027;
+}
+
+/*BODY SELECTOR*/
+h1 {
+  color: white;
+  font-family: 'Righteous', cursive;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/*CLASS TAG**/
+.container-fluid {
+  padding: 3% 15%
+}
+
+/*PICTURES SECTION**/
+.Musty-working {
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  border-color: white;
+  /* transform: rotate(45deg); */
+}
+
+/*NAVBAR**/
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-family: 'Genos', sans-serif;
+}
+
+.navbar-brand {
+  font-size: 20px;
+  font-family: 'IM Fell English SC', serif;
+}
+
+.new-button {
+  margin: 5% 3% 5% 0
+}
+
+/* FEATURES SECTION */
+/*ID SECTION*/
+#features {
+  padding: 7% 15%
+}
+}
+
+/*BODY SELECTOR*/
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  color: color:black;
+}
+
+/*CLASS SELECTOR*/
+.features-class {
+  padding: 5%;
+  text-align: center;
+  line-height: 2;
+}
+
+.fas {
+  color: #4C0027;
+  margin-bottom: 1.5rem;
+}
+
+.fas:hover {
+  color: yellow;
+}
+
+/*TESTIMONIALS SECTION */
+#testimonials {
+  text-align: center;
+  color: white;
+  background-color: #4C0027;
+}
+
+/*BODY SELECTOR*/
+h2 {
+  font-family: 'IM Fell English SC', serif;
+}
+
+/*PICTURESELECTOR*/
+.testimonial-image {
+  border-radius: 100%;
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  border-color: white;
+}
+
+/*CLASS SELECTOR*/
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/*PRESS SECTION*/
+#press {
+  padding: 7% 15%;
+  background-color: #4C0027;
+  text-align: center;
+}
+
+/*PICTURESELECTOR*/
+.press-image {
+  width: 20%;
+  margin: 10px
+}
+
+/*PRicing SECTION*/
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+/*CLASS SELECTOR*/
+.col-lg-4 {
+  padding: 3% 5%
+}
+
+/* here we are talking about media query which is responsible for the responsive web
+page on phone, ipad and desktop sizes by using CSS class which is devoid of Boostrap
+to effect the change */
+@media (max-width:990px) {
+  #title {
+    text-align: center;
+  }
+}
+
+/*Cta SECTION*/
+#cta {
+  background-color: #4C0027;
+  text-align: center;
+  padding: 7% 15%;
+  color: white;
+}
+
+/*CLASS SELECTOR*/
+.last-button {
+  margin: 20px;
+  padding: 10px 20px;
+  text-align: center;
+}
+.cta-heading{font-size: 2.5rem;line-height: 1.5;}
+
+/*Footer SECTION*/
+#footer {
+  background-color: white;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+/*CLASS SELECTOR*/
+.foot {
+  color: #4C0027;
+  text-decoration: none;
+  padding: 10px 10px
+}
+
+.foot:hover {
+  color: blue;
